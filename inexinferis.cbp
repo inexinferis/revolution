@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Revolution" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="Release/inexinferis" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wno-attributes" />
+					<Add option="-Wno-write-strings" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="ntdll" />
+				</Linker>
+			</Target>
+			<Target title="Debug">
+				<Option output="Debug/inexinferis" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Winit-self" />
+					<Add option="-Wcast-align" />
+					<Add option="-Winline" />
+					<Add option="-Wunreachable-code" />
+					<Add option="-Wswitch-enum" />
+					<Add option="-Wextra" />
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-Wno-attributes" />
+					<Add option="-Wno-missing-field-initializers" />
+					<Add option="-Wno-write-strings" />
+					<Add option="-Wno-unused-parameter" />
+					<Add option="-Wno-switch-enum" />
+				</Compiler>
+				<Linker>
+					<Add library="ntdll" />
+				</Linker>
+			</Target>
+		</Build>
+		<Linker>
+			<Add option="-static-libgcc" />
+			<Add option="-static-libstdc++" />
+			<Add option="-fno-exceptions" />
+			<Add option="-fno-rtti" />
+			<Add library="psapi" />
+			<Add library="gdi32" />
+		</Linker>
+		<Unit filename="FakeSteamId.cpp" />
+		<Unit filename="FakeSteamId.h" />
+		<Unit filename="aimbot.cpp" />
+		<Unit filename="aimbot.h" />
+		<Unit filename="autoroute.cpp" />
+		<Unit filename="autoroute.h" />
+		<Unit filename="client.cpp" />
+		<Unit filename="client.h" />
+		<Unit filename="color.cpp" />
+		<Unit filename="color.h" />
+		<Unit filename="console.cpp" />
+		<Unit filename="console.h" />
+		<Unit filename="cvar.cpp" />
+		<Unit filename="cvar.h" />
+		<Unit filename="drawing.cpp" />
+		<Unit filename="drawing.h" />
+		<Unit filename="engine/Sequence.h" />
+		<Unit filename="engine/anorms.h" />
+		<Unit filename="engine/archtypes.h" />
+		<Unit filename="engine/beamdef.h" />
+		<Unit filename="engine/cdll_dll.h" />
+		<Unit filename="engine/cdll_int.h" />
+		<Unit filename="engine/cl_dll.h" />
+		<Unit filename="engine/cl_entity.h" />
+		<Unit filename="engine/com_model.h" />
+		<Unit filename="engine/con_nprint.h" />
+		<Unit filename="engine/const.h" />
+		<Unit filename="engine/crc.h" />
+		<Unit filename="engine/custom.h" />
+		<Unit filename="engine/customentity.h" />
+		<Unit filename="engine/cvardef.h" />
+		<Unit filename="engine/demo_api.h" />
+		<Unit filename="engine/director_cmds.h" />
+		<Unit filename="engine/dlight.h" />
+		<Unit filename="engine/dll_state.h" />
+		<Unit filename="engine/edict.h" />
+		<Unit filename="engine/eiface.h" />
+		<Unit filename="engine/engine_launcher_api.h" />
+		<Unit filename="engine/entity_state.h" />
+		<Unit filename="engine/entity_types.h" />
+		<Unit filename="engine/event_api.h" />
+		<Unit filename="engine/event_args.h" />
+		<Unit filename="engine/event_flags.h" />
+		<Unit filename="engine/exefuncs.h" />
+		<Unit filename="engine/hltv.h" />
+		<Unit filename="engine/in_buttons.h" />
+		<Unit filename="engine/interface.cpp" />
+		<Unit filename="engine/interface.h" />
+		<Unit filename="engine/ivoicetweak.h" />
+		<Unit filename="engine/keydefs.h" />
+		<Unit filename="engine/mathlib.h" />
+		<Unit filename="engine/net_api.h" />
+		<Unit filename="engine/netadr.h" />
+		<Unit filename="engine/nowin.h" />
+		<Unit filename="engine/parsemsg.cpp" />
+		<Unit filename="engine/parsemsg.h" />
+		<Unit filename="engine/particledef.h" />
+		<Unit filename="engine/pm_defs.h" />
+		<Unit filename="engine/pm_info.h" />
+		<Unit filename="engine/pm_materials.h" />
+		<Unit filename="engine/pmtrace.h" />
+		<Unit filename="engine/progdefs.h" />
+		<Unit filename="engine/progs.h" />
+		<Unit filename="engine/qfont.h" />
+		<Unit filename="engine/r_efx.h" />
+		<Unit filename="engine/r_studioint.h" />
+		<Unit filename="engine/ref_params.h" />
+		<Unit filename="engine/screenfade.h" />
+		<Unit filename="engine/shake.h" />
+		<Unit filename="engine/studio.h" />
+		<Unit filename="engine/studio_event.h" />
+		<Unit filename="engine/studiomodelrenderer.h" />
+		<Unit filename="engine/triangleapi.h" />
+		<Unit filename="engine/usercmd.h" />
+		<Unit filename="engine/util_vector.h" />
+		<Unit filename="engine/utils.cpp" />
+		<Unit filename="engine/utils.h" />
+		<Unit filename="engine/weaponinfo.h" />
+		<Unit filename="engine/wrect.h" />
+		<Unit filename="gui.cpp" />
+		<Unit filename="gui.h" />
+		<Unit filename="interpreter.cpp" />
+		<Unit filename="interpreter.h" />
+		<Unit filename="jpeg/jpgd.h" />
+		<Unit filename="jpeg/jpge.cpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="main.h" />
+		<Unit filename="menu.cpp" />
+		<Unit filename="menu.h" />
+		<Unit filename="nospread.cpp" />
+		<Unit filename="nospread.h" />
+		<Unit filename="offsets.cpp" />
+		<Unit filename="offsets.h" />
+		<Unit filename="opengl.cpp" />
+		<Unit filename="opengl.h" />
+		<Unit filename="players.cpp" />
+		<Unit filename="players.h" />
+		<Unit filename="radar.cpp" />
+		<Unit filename="radar.h" />
+		<Unit filename="screenshots.cpp">
+			<Option weight="51" />
+		</Unit>
+		<Unit filename="screenshots.h" />
+		<Unit filename="sprites.cpp" />
+		<Unit filename="sprites.h" />
+		<Unit filename="textures.cpp" />
+		<Unit filename="textures.h" />
+		<Unit filename="utils.cpp">
+			<Option weight="40" />
+		</Unit>
+		<Unit filename="utils.h" />
+		<Unit filename="weapons.cpp" />
+		<Unit filename="weapons.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

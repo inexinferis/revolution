@@ -1,0 +1,431 @@
+# depslib dependency file v1.0
+1553032825 source:d:\codeblocks\examples\revolution\utils.cpp
+	"utils.h"
+
+1553034119 d:\codeblocks\examples\revolution\utils.h
+	<windows.h>
+	<tlhelp32.h>
+	<ntdll.h>
+	<psapi.h>
+
+1492552541 source:d:\codeblocks\examples\revolution\aimbot.cpp
+	"weapons.h"
+	"textures.h"
+	"players.h"
+	"drawing.h"
+	"aimbot.h"
+	"main.h"
+	"cvar.h"
+	"nospread.h"
+	"opengl.h"
+	<time.h>
+
+1481458650 d:\codeblocks\examples\revolution\weapons.h
+	<vector>
+	"main.h"
+
+1553033170 d:\codeblocks\examples\revolution\main.h
+	"engine/wrect.h"
+	"engine/cl_dll.h"
+	"engine/pmtrace.h"
+	"engine/pm_defs.h"
+	"engine/cdll_int.h"
+	"engine/const.h"
+	"engine/progdefs.h"
+	"engine/eiface.h"
+	"engine/edict.h"
+	"engine/studio_event.h"
+	"engine/entity_types.h"
+	"engine/entity_state.h"
+	"engine/r_efx.h"
+	"engine/r_studioint.h"
+	"engine/pmtrace.h"
+	"engine/usercmd.h"
+	"engine/studio.h"
+	"engine/triangleapi.h"
+	"engine/com_model.h"
+	"engine/studiomodelrenderer.h"
+	"engine/com_model.h"
+	"engine/ref_params.h"
+	"engine/event_api.h"
+	"engine/screenfade.h"
+	"engine/parsemsg.h"
+	"engine/net_api.h"
+	"engine/interface.h"
+	"engine/keydefs.h"
+	"utils.h"
+
+1439011391 d:\codeblocks\examples\revolution\engine\wrect.h
+
+1439011391 d:\codeblocks\examples\revolution\engine\cl_dll.h
+	"util_vector.h"
+	"cdll_int.h"
+	"cdll_dll.h"
+
+1439011391 d:\codeblocks\examples\revolution\engine\util_vector.h
+	"STDIO.H"
+	"STDLIB.H"
+	"MATH.H"
+
+1439011391 d:\codeblocks\examples\revolution\engine\cdll_int.h
+	"const.h"
+	"in_buttons.h"
+
+1439011391 d:\codeblocks\examples\revolution\engine\const.h
+	"in_buttons.h"
+
+1439011391 d:\codeblocks\examples\revolution\engine\in_buttons.h
+
+1439011391 d:\codeblocks\examples\revolution\engine\cdll_dll.h
+
+1439011391 d:\codeblocks\examples\revolution\engine\pmtrace.h
+
+1439011391 d:\codeblocks\examples\revolution\engine\pm_defs.h
+	"pm_info.h"
+	"pmtrace.h"
+	"usercmd.h"
+
+1439011391 d:\codeblocks\examples\revolution\engine\pm_info.h
+
+1439011391 d:\codeblocks\examples\revolution\engine\usercmd.h
+
+1439011391 d:\codeblocks\examples\revolution\engine\progdefs.h
+
+1439011391 d:\codeblocks\examples\revolution\engine\eiface.h
+	<stdio.h>
+	"custom.h"
+	"cvardef.h"
+	"Sequence.h"
+	"crc.h"
+
+1439011391 d:\codeblocks\examples\revolution\engine\custom.h
+	"const.h"
+	"crc.h"
+
+1439011391 d:\codeblocks\examples\revolution\engine\crc.h
+
+1439011391 d:\codeblocks\examples\revolution\engine\cvardef.h
+
+1439011391 d:\codeblocks\examples\revolution\engine\sequence.h
+
+1439011391 d:\codeblocks\examples\revolution\engine\edict.h
+	"progdefs.h"
+
+1439011391 d:\codeblocks\examples\revolution\engine\studio_event.h
+
+1439011391 d:\codeblocks\examples\revolution\engine\entity_types.h
+
+1439011391 d:\codeblocks\examples\revolution\engine\entity_state.h
+	"pm_info.h"
+	"weaponinfo.h"
+
+1439011391 d:\codeblocks\examples\revolution\engine\weaponinfo.h
+
+1439011391 d:\codeblocks\examples\revolution\engine\r_efx.h
+	"particledef.h"
+	"beamdef.h"
+	"dlight.h"
+	"cl_entity.h"
+
+1439011391 d:\codeblocks\examples\revolution\engine\particledef.h
+
+1439011391 d:\codeblocks\examples\revolution\engine\beamdef.h
+
+1439011391 d:\codeblocks\examples\revolution\engine\dlight.h
+
+1439011391 d:\codeblocks\examples\revolution\engine\cl_entity.h
+	"entity_state.h"
+	"progs.h"
+
+1439011391 d:\codeblocks\examples\revolution\engine\progs.h
+	"progdefs.h"
+	"event_flags.h"
+	"event_args.h"
+	"entity_state.h"
+	"edict.h"
+
+1439011391 d:\codeblocks\examples\revolution\engine\event_flags.h
+
+1439011391 d:\codeblocks\examples\revolution\engine\event_args.h
+
+1439011391 d:\codeblocks\examples\revolution\engine\r_studioint.h
+
+1439011391 d:\codeblocks\examples\revolution\engine\studio.h
+	"studio_event.h"
+
+1439011391 d:\codeblocks\examples\revolution\engine\triangleapi.h
+
+1439011391 d:\codeblocks\examples\revolution\engine\com_model.h
+	"custom.h"
+
+1439011391 d:\codeblocks\examples\revolution\engine\studiomodelrenderer.h
+
+1439011391 d:\codeblocks\examples\revolution\engine\ref_params.h
+
+1439011391 d:\codeblocks\examples\revolution\engine\event_api.h
+
+1439011391 d:\codeblocks\examples\revolution\engine\screenfade.h
+
+1439011391 d:\codeblocks\examples\revolution\engine\parsemsg.h
+
+1439011391 d:\codeblocks\examples\revolution\engine\net_api.h
+	"netadr.h"
+
+1439011391 d:\codeblocks\examples\revolution\engine\netadr.h
+
+1439011391 d:\codeblocks\examples\revolution\engine\interface.h
+
+1439011391 d:\codeblocks\examples\revolution\engine\keydefs.h
+
+1439011393 d:\codeblocks\examples\revolution\textures.h
+	"main.h"
+	<ctype.h>
+
+1553034818 d:\codeblocks\examples\revolution\players.h
+	"main.h"
+	"color.h"
+
+1483040123 d:\codeblocks\examples\revolution\color.h
+	<vector>
+
+1483040123 d:\codeblocks\examples\revolution\drawing.h
+	"main.h"
+
+1470454202 d:\codeblocks\examples\revolution\aimbot.h
+
+1553034818 d:\codeblocks\examples\revolution\cvar.h
+
+1471044129 d:\codeblocks\examples\revolution\nospread.h
+	"weapons.h"
+	"drawing.h"
+	"players.h"
+	"main.h"
+	"cvar.h"
+
+1552956984 d:\codeblocks\examples\revolution\opengl.h
+	<gl/gl.h>
+	<gl/glu.h>
+
+1471043634 source:d:\codeblocks\examples\revolution\autoroute.cpp
+	<fstream>
+	"client.h"
+	"autoroute.h"
+	"weapons.h"
+
+1479579906 d:\codeblocks\examples\revolution\client.h
+	"main.h"
+
+1464146157 d:\codeblocks\examples\revolution\autoroute.h
+	"players.h"
+	"aimbot.h"
+	"drawing.h"
+	"cvar.h"
+	"main.h"
+
+1553034747 source:d:\codeblocks\examples\revolution\client.cpp
+	"screenshots.h"
+	"interpreter.h"
+	"weapons.h"
+	"autoroute.h"
+	"textures.h"
+	"nospread.h"
+	"console.h"
+	"drawing.h"
+	"players.h"
+	"client.h"
+	"opengl.h"
+	"aimbot.h"
+	"radar.h"
+	"main.h"
+	"cvar.h"
+	"menu.h"
+	"gui.h"
+	"FakeSteamId.h"
+
+1552956927 d:\codeblocks\examples\revolution\screenshots.h
+	"utils.h"
+	"jpeg/jpge.h"
+
+1439011391 d:\codeblocks\examples\revolution\jpeg\jpge.h
+
+1439011391 d:\codeblocks\examples\revolution\interpreter.h
+	<map>
+	<vector>
+	<string>
+	<list>
+	<stdlib.h>
+	"utils.h"
+
+1447084853 d:\codeblocks\examples\revolution\console.h
+	<string>
+
+1447112254 d:\codeblocks\examples\revolution\radar.h
+
+1483040123 d:\codeblocks\examples\revolution\menu.h
+
+1479577019 d:\codeblocks\examples\revolution\gui.h
+	<list>
+
+1439011391 d:\codeblocks\examples\revolution\fakesteamid.h
+	"utils.h"
+
+1482613268 source:d:\codeblocks\examples\revolution\color.cpp
+	"color.h"
+
+1483040123 source:d:\codeblocks\examples\revolution\console.cpp
+	"interpreter.h"
+	"console.h"
+	"drawing.h"
+	"color.h"
+	"main.h"
+	"gui.h"
+
+1553034818 source:d:\codeblocks\examples\revolution\cvar.cpp
+	"interpreter.h"
+	"cvar.h"
+	"main.h"
+	"client.h"
+	"screenshots.h"
+
+1483040123 source:d:\codeblocks\examples\revolution\drawing.cpp
+	"weapons.h"
+	"screenshots.h"
+	"drawing.h"
+	"sprites.h"
+	"console.h"
+	"players.h"
+	"opengl.h"
+	"radar.h"
+	"menu.h"
+	"cvar.h"
+	"gui.h"
+
+1439011392 d:\codeblocks\examples\revolution\sprites.h
+	"main.h"
+
+1439011391 source:d:\codeblocks\examples\revolution\engine\interface.cpp
+	<string.h>
+	<stdlib.h>
+	"interface.h"
+	<dlfcn.h>
+	<unistd.h>
+	<stdio.h>
+	"windows.h"
+
+1439011391 source:d:\codeblocks\examples\revolution\engine\parsemsg.cpp
+
+1439011391 source:d:\codeblocks\examples\revolution\engine\utils.cpp
+	"utils.h"
+	<windows.h>
+
+1439011391 d:\codeblocks\examples\revolution\engine\utils.h
+	<windows.h>
+	"../engine/wrect.h"
+	"../engine/cl_dll.h"
+	"../engine/cdll_int.h"
+
+1553035279 source:d:\codeblocks\examples\revolution\fakesteamid.cpp
+	"FakeSteamId.h"
+
+1483040123 source:d:\codeblocks\examples\revolution\gui.cpp
+	"drawing.h"
+	"players.h"
+	"cvar.h"
+	"gui.h"
+	"nospread.h"
+	"opengl.h"
+	<time.h>
+
+1552950018 source:d:\codeblocks\examples\revolution\interpreter.cpp
+	<fstream>
+	"interpreter.h"
+	"console.h"
+	"utils.h"
+	"main.h"
+	"gui.h"
+
+1439011391 source:d:\codeblocks\examples\revolution\jpeg\jpge.cpp
+	"jpge.h"
+	<stdlib.h>
+	<string.h>
+	<malloc.h>
+	<stdio.h>
+
+1553034747 source:d:\codeblocks\examples\revolution\main.cpp
+	"screenshots.h"
+	"opengl.h"
+	"client.h"
+	"utils.h"
+	"cvar.h"
+	"main.h"
+	"offsets.h"
+
+1471047269 d:\codeblocks\examples\revolution\offsets.h
+	"utils.h"
+
+1553035188 source:d:\codeblocks\examples\revolution\menu.cpp
+	<fstream>
+	"interpreter.h"
+	"autoroute.h"
+	"players.h"
+	"drawing.h"
+	"utils.h"
+	"main.h"
+	"menu.h"
+	"cvar.h"
+	"gui.h"
+
+1471048044 source:d:\codeblocks\examples\revolution\nospread.cpp
+	"nospread.h"
+	"interpreter.h"
+
+1553035142 source:d:\codeblocks\examples\revolution\offsets.cpp
+	"offsets.h"
+
+1553035084 source:d:\codeblocks\examples\revolution\opengl.cpp
+	"screenshots.h"
+	"autoroute.h"
+	"players.h"
+	"opengl.h"
+	"aimbot.h"
+	"client.h"
+	"utils.h"
+	"cvar.h"
+
+1553034846 source:d:\codeblocks\examples\revolution\players.cpp
+	"weapons.h"
+	"interpreter.h"
+	"players.h"
+	"sprites.h"
+	"drawing.h"
+	"aimbot.h"
+	"client.h"
+	"radar.h"
+	"utils.h"
+	"main.h"
+	"cvar.h"
+
+1447112583 source:d:\codeblocks\examples\revolution\radar.cpp
+	"drawing.h"
+	"players.h"
+	"radar.h"
+	"cvar.h"
+	"gui.h"
+	"opengl.h"
+
+1552953340 source:d:\codeblocks\examples\revolution\sprites.cpp
+	"sprites.h"
+
+1446213689 source:d:\codeblocks\examples\revolution\textures.cpp
+	"textures.h"
+
+1446307501 source:d:\codeblocks\examples\revolution\weapons.cpp
+	"weapons.h"
+	"main.h"
+
+1553034906 source:d:\codeblocks\examples\revolution\screenshots.cpp
+	"screenshots.h"
+	"opengl.h"
+	"main.h"
+	"cvar.h"
+
